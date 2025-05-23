@@ -26,7 +26,7 @@ public class UserController {
         return ResponseEntity.ok(userService.addUser(userRequest));
     }
 
-    @DeleteMapping
+    @PostMapping("/delete")
     public ResponseEntity<UserStatusResponse> deleteUser(@RequestBody UserRequest userRequest){
         return ResponseEntity.ok(userService.deleteUser(userRequest));
     }

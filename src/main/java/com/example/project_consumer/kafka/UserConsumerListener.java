@@ -20,7 +20,7 @@ public class UserConsumerListener {
     private final UserRepository userRepository;
     private final SimpMessagingTemplate messagingTemplate;
 
-    //TODO add retry policy
+    @RetryableTopic
     @KafkaListener(topics = "user-events", groupId = "user-group")
     public void consume(UserRequest request) {
         try {
