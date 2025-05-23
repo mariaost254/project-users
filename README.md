@@ -1,4 +1,3 @@
-Backend
 User Management App, built with:
 
 - **Spring Boot** 
