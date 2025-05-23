@@ -56,8 +56,8 @@ On frontend - https://github.com/mariaost254/project-front
 Create a .env file  
 
 ```env
-VITE_API_BASE=http://localhost:8086/api/users
-VITE_SOCKET_ENDPOINT=http://localhost:8086/ws
+VUE_APP_API_BASE=http://localhost:8086/api/users
+VUE_APP_SOCKET_ENDPOINT=http://localhost:8086/ws
 ```
 npm install  
 npm run dev  
